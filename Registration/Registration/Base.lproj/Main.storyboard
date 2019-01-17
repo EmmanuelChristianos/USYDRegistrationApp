@@ -65,12 +65,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-650.39999999999998" y="17.541229385307346"/>
+            <point key="canvasLocation" x="-1087" y="-189"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="g0G-Tn-Wau">
             <objects>
-                <viewController id="aBv-Cs-Dvb" sceneMemberID="viewController">
+                <viewController id="aBv-Cs-Dvb" customClass="ViewController" customModule="Registration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uph-d9-2LI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,10 +87,8 @@
                                     <constraint firstAttribute="width" constant="144" id="6Rz-l4-tq6"/>
                                 </constraints>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="tel"/>
-                                <connections>
-                                    <action selector="goForward" destination="ei0-N3-2Xm" eventType="editingDidEnd" id="wMQ-Us-etF"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y18-YF-dQC">
                                 <rect key="frame" x="152" y="189" width="71" height="27"/>
@@ -151,16 +149,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ljn-xw-GuH"/>
                     </view>
+                    <connections>
+                        <outlet property="ID" destination="9PH-YW-vog" id="ATL-8m-KaA"/>
+                        <outlet property="PhoneNum" destination="MGx-gh-GzW" id="Mhk-zE-km6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ei0-N3-2Xm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="fVQ-VH-qpe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="365.60000000000002" y="-150.67466266866569"/>
+            <point key="canvasLocation" x="-442" y="-189"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NjF-aT-6Ld">
             <objects>
-                <viewController id="qmF-P0-5J3" sceneMemberID="viewController">
+                <viewController id="qmF-P0-5J3" customClass="ViewController" customModule="Registration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ndA-Ev-UtQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,6 +247,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="SignUp:" destination="qmF-P0-5J3" eventType="touchUpInside" id="pvX-UO-DOU"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="rnM-h6-Xrl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sz4-ZT-PxE">
                                 <rect key="frame" x="170.5" y="567" width="34" height="36"/>
@@ -291,13 +297,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aVt-Xt-bi2"/>
                     </view>
+                    <connections>
+                        <outlet property="Email" destination="uPX-Nl-ZO3" id="s3L-DZ-iSZ"/>
+                        <outlet property="Name" destination="0tm-7M-Yfy" id="Hlu-J6-LXM"/>
+                        <outlet property="SignPhone" destination="MQB-8J-z3U" id="TOl-ID-cfQ"/>
+                        <outlet property="SignTsaId" destination="TaH-5c-TGs" id="5R3-80-yI5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B4P-92-FZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="365.60000000000002" y="589.65517241379314"/>
+            <point key="canvasLocation" x="-442" y="466"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pQr-oj-F5a"/>
+        <segue reference="zQL-0K-Wss"/>
     </inferredMetricsTieBreakers>
 </document>
