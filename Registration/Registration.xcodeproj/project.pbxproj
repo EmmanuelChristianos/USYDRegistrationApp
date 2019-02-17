@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37280E8D22163E3C00C03866 /* Taiwan Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 37280E8C22163E3C00C03866 /* Taiwan Background.png */; };
+		37280E8F2216944100C03866 /* Grey Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37280E8E2216944100C03866 /* Grey Background.jpg */; };
+		37280E9222178C5200C03866 /* CornerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37280E9022178C5200C03866 /* CornerLogo.png */; };
+		37280E9322178C5200C03866 /* TopLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37280E9122178C5200C03866 /* TopLogo.png */; };
 		37CC9E5121AF9DB700317096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC9E5021AF9DB700317096 /* AppDelegate.swift */; };
 		37CC9E5321AF9DB700317096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC9E5221AF9DB700317096 /* ViewController.swift */; };
 		37CC9E5621AF9DB700317096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CC9E5421AF9DB700317096 /* Main.storyboard */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37280E8C22163E3C00C03866 /* Taiwan Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taiwan Background.png"; sourceTree = "<group>"; };
+		37280E8E2216944100C03866 /* Grey Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grey Background.jpg"; sourceTree = "<group>"; };
+		37280E9022178C5200C03866 /* CornerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerLogo.png; sourceTree = "<group>"; };
+		37280E9122178C5200C03866 /* TopLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopLogo.png; sourceTree = "<group>"; };
 		379A7C27C8B8161C23769E9A /* Pods-RegistrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegistrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RegistrationTests/Pods-RegistrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		37CC9E4D21AF9DB700317096 /* Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CC9E5021AF9DB700317096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,7 +122,11 @@
 		37CC9E4F21AF9DB700317096 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
+				37280E8C22163E3C00C03866 /* Taiwan Background.png */,
 				37CC9E5021AF9DB700317096 /* AppDelegate.swift */,
+				37280E8E2216944100C03866 /* Grey Background.jpg */,
+				37280E9022178C5200C03866 /* CornerLogo.png */,
+				37280E9122178C5200C03866 /* TopLogo.png */,
 				37CC9E5221AF9DB700317096 /* ViewController.swift */,
 				37CC9E5421AF9DB700317096 /* Main.storyboard */,
 				37CC9E5721AF9DB800317096 /* Assets.xcassets */,
@@ -275,9 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37280E8D22163E3C00C03866 /* Taiwan Background.png in Resources */,
+				37280E8F2216944100C03866 /* Grey Background.jpg in Resources */,
 				37CC9E5B21AF9DB800317096 /* LaunchScreen.storyboard in Resources */,
 				37CC9E5821AF9DB800317096 /* Assets.xcassets in Resources */,
 				37CC9E5621AF9DB700317096 /* Main.storyboard in Resources */,
+				37280E9322178C5200C03866 /* TopLogo.png in Resources */,
+				37280E9222178C5200C03866 /* CornerLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
